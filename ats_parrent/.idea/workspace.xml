@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="882a03bc-0f46-4826-89f6-60ce51c65e7b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/filters/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/filters/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/filters/HeaderFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/filters/HeaderFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/infras/api-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/infras/api-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/application-service/src/main/java/fu/ats/controller/ApplicationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/application-service/src/main/java/fu/ats/controller/ApplicationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/job-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/services/job-service/src/main/java/fu/ats/controller/JobController.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="67f08abc-89c0-4aa6-900d-9b70200df4e6" value="" />
+    </colors>
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="140" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="5.985901625799183E-6" />
+      <entry key="MS500" value="0.090245574720156" />
+      <entry key="S2" value="0.5480958058421106" />
+      <entry key="S5" value="0.7862176057923271" />
+      <entry key="S10" value="0.8888244152495769" />
+      <entry key="S30" value="1.9868790484700953" />
+      <entry key="S60" value="6.045684280838345" />
+      <entry key="M2" value="13.173779474193188" />
+      <entry key="M5" value="26.557095300406434" />
+      <entry key="M10" value="41.679903998358526" />
+      <entry key="M15" value="53.51035114714066" />
+      <entry key="M30" value="79.81838405987735" />
+      <entry key="H1" value="124.0983259017763" />
+      <entry key="H2" value="239.38295773635878" />
+      <entry key="H4" value="531.4301144866661" />
+      <entry key="D1" value="1579.0243652960705" />
+      <entry key="W1" value="1978.2323160499802" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0000000000000775" />
+      <entry key="S60" value="1.0000004240551583" />
+      <entry key="M2" value="1.001099172011616" />
+      <entry key="M5" value="1.1744690218206781" />
+      <entry key="M10" value="2.526982455248193" />
+      <entry key="M15" value="4.700634229279036" />
+      <entry key="M30" value="13.27214844669529" />
+      <entry key="H1" value="38.07033426677337" />
+      <entry key="H2" value="108.44851988172223" />
+      <entry key="H4" value="249.22408985697243" />
+      <entry key="D1" value="666.9496919154903" />
+      <entry key="W1" value="817.807849276427" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.0068011762757509715" />
+      <entry key="MS500" value="0.3685709282866382" />
+      <entry key="S2" value="0.8227956597993763" />
+      <entry key="S5" value="1.1907121347246032" />
+      <entry key="S10" value="1.487966711279597" />
+      <entry key="S30" value="2.821048679808418" />
+      <entry key="S60" value="6.957656349063196" />
+      <entry key="M2" value="14.129256345695303" />
+      <entry key="M5" value="27.71084780540086" />
+      <entry key="M10" value="44.18990043855615" />
+      <entry key="M15" value="58.193207191025344" />
+      <entry key="M30" value="93.06856075298141" />
+      <entry key="H1" value="162.1370968874149" />
+      <entry key="H2" value="347.78771496246827" />
+      <entry key="H4" value="780.6065598776557" />
+      <entry key="D1" value="2245.9546692727145" />
+      <entry key="W1" value="2796.0368375818502" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3JS2Ag0uXXwtLfMTCQmYzPuJgFu" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.job-service.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApplicationServiceApplication 2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ApplicationServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.CandidateServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.JobServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/dieunt/Documents/FPTU/1_Training/26_FA/MSS301_SE1946-JV/Projects/ats_parrent/infras/eureka-server/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/dieunt/Documents/FPTU/1_Training/26_FA/MSS301_SE1946-JV/Projects/ats_parrent/infras/eureka-server/src/main/java/fu/ats/Main.java&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;ml.llm.LLMThirdPartyAiProvidersConfigurable&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/infras/eureka-server/src/main/resources" />
+      <recent name="$PROJECT_DIR$/services/application-service/src/main/java/fu/ats" />
+      <recent name="$PROJECT_DIR$/infras/api-gateway/src/main/resources" />
+      <recent name="$PROJECT_DIR$/services/application-service/src/main/resources" />
+      <recent name="$PROJECT_DIR$/services/candidate-service/src/main/resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fu.ats.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="ApiGatewayApplication" value="STOPPED" />
+              <entry key="ApplicationServiceApplication" value="STOPPED" />
+              <entry key="ApplicationServiceApplication 2" value="STOPPED" />
+              <entry key="CandidateServiceApplication" value="STOPPED" />
+              <entry key="EurekaServerApplication" value="STOPPED" />
+              <entry key="JobServiceApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="ats_parrent" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="ats_parrent" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.ApiGatewayApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="true" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+          <ENTRY IS_ENABLED="true" PARSER="env" IS_EXECUTABLE="false" PATH="infras/api-gateway/.env" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServiceApplication 2" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="application-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.ApplicationServiceApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9083" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="application-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.ApplicationServiceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CandidateServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="candidate-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.CandidateServiceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="eureka-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.EurekaServerApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JobServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="job-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="fu.ats.JobServiceApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ApplicationServiceApplication" />
+      <item itemvalue="Spring Boot.ApplicationServiceApplication 2" />
+      <item itemvalue="Spring Boot.EurekaServerApplication" />
+      <item itemvalue="Spring Boot.CandidateServiceApplication" />
+      <item itemvalue="Spring Boot.JobServiceApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="882a03bc-0f46-4826-89f6-60ce51c65e7b" name="Changes" comment="" />
+      <created>1789640008247</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1789640008247</updated>
+      <workItem from="1789640009262" duration="1150000" />
+      <workItem from="1789970576949" duration="7859000" />
+      <workItem from="1790124302118" duration="555000" />
+      <workItem from="1790125138656" duration="102000" />
+      <workItem from="1790235182985" duration="38000" />
+      <workItem from="1790244320942" duration="9853000" />
+      <workItem from="1790312554935" duration="996000" />
+      <workItem from="1790313798916" duration="804000" />
+      <workItem from="1790575817402" duration="9005000" />
+      <workItem from="1790590585018" duration="1360000" />
+      <workItem from="1790839546424" duration="2846000" />
+      <workItem from="1790842443350" duration="7666000" />
+      <workItem from="1790903492292" duration="1402000" />
+      <workItem from="1791180009121" duration="7777000" />
+      <workItem from="1791272035663" duration="7000" />
+      <workItem from="1791301655448" duration="468000" />
+      <workItem from="1791449808461" duration="5135000" />
+      <workItem from="1791785984917" duration="4579000" />
+      <workItem from="1792059381894" duration="1169000" />
+      <workItem from="1792080703388" duration="705000" />
+      <workItem from="1792389760023" duration="6994000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/fu/he123456/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/infras/api-gateway/src/main/java/fu/ats/filters/LoggingFilter.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

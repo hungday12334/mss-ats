@@ -1,0 +1,80 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: application-service
+  datasource:
+    url: jdbc:postgresql://localhost:5433/application_sdb
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: "123456"
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+    properties:
+      hibernate:
+        show_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+job-service:
+  url: http://localhost:8081
+candidate-service:
+  url: http://localhost:8082
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/  # Địa chỉ Eureka Server
+    fetch-registry: true      # Tải registry về local cache
+    register-with-eureka: true  # Đăng ký bản thân vào registry
+  instance:
+    prefer-ip-address: true    # Dùng IP thay hostname - quan trọng trong Docker
+    lease-renewal-interval-in-seconds: 10   # Heartbeat mỗi 10s (dev)
+    lease-expiration-duration-in-seconds: 30  # Expiry sau 30s không có heartbeat
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      candidateCB:
+        registerHealthIndicator: true
+
+        slidingWindowType: COUNT_BASED
+        slidingWindowSize: 5
+        minimumNumberOfCalls: 5
+
+        failureRateThreshold: 50
+        slowCallRateThreshold: 50
+        slowCallDurationThreshold: 2s
+        ignoreExceptions:
+          - fu.ats.exception.BusinessException
+        waitDurationInOpenState: 15s
+        automaticTransitionFromOpenToHalfOpenEnabled: true
+        permittedNumberOfCallsInHalfOpenState: 3
+
+        eventConsumerBufferSize: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - info
+          - metrics
+          - prometheus
+          - circuitbreakers
+          - circuitbreakerevents
+
+  endpoint:
+    health:
+      show-details: always
+
+  health:
+    circuitbreakers:
+      enabled: true
+
+  metrics:
+    tags:
+      application: application-service

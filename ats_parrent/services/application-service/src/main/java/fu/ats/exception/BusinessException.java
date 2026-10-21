@@ -1,0 +1,20 @@
+package fu.ats.exception;
+
+import lombok.Getter;
+
+@Getter
+public class BusinessException extends RuntimeException {
+    private int type;
+    private String message;
+    private String code;
+
+    public BusinessException() {
+    }
+
+    public BusinessException(int type, String message) {
+        super(message);
+        this.type = type;
+        this.message = message;
+
+    }
+}
